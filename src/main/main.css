@@ -1,0 +1,138 @@
+@font-face {
+  font-family: Oswald-ExtraLight;
+  src: local("Oswald-ExtraLight"),
+    url(./imgANDfonts/Oswald-ExtraLight.ttf) format("truetype");
+}
+@font-face {
+  font-family: Oswald-Regular;
+  src: local("Oswald-Regular"),
+    url(./imgANDfonts/Oswald-Regular.ttf) format("truetype");
+}
+
+.btn {
+  background-color: black;
+  width: 650px;
+  height: 40px;
+  border-radius: 0px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  font-family: "Oswald-Regular", sans-serif;
+  font-size: x-large;
+  text-align: center;
+  color: white;
+  text-decoration-color: white;
+
+  box-shadow: inset 0 0 0 0 #f6b93b;
+  transition: ease-out 0.3s;
+}
+
+.btn button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.btn:hover {
+  box-shadow: inset 0 50px 0 0 #f6b93b;
+  border-color: #f6b93b;
+  color: black;
+}
+
+.heading_light {
+  top: 10px;
+  left: 25px;
+  font-family: "Oswald-ExtraLight", sans-serif;
+  font-size: 80px;
+  color: white;
+}
+
+.heading_medium {
+  top: 10px;
+  left: 25px;
+  font-family: "Oswald-Regular", sans-serif;
+  font-size: 85px;
+  color: white;
+}
+
+.form_info {
+  background-color: black;
+  width: 260px;
+  height: 40px;
+  border-radius: 0px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  font-family: "Oswald-Regular", sans-serif;
+  font-size: x-large;
+  text-align: center;
+  color: white;
+  text-decoration-color: white;
+
+  box-shadow: inset 0 0 0 0 #f6b93b;
+  transition: ease-out 0.3s;
+}
+
+.form_input {
+  width: 100px;
+  height: 40px;
+  background-color: #f6b93b;
+  border-color: black;
+  font-family: "Oswald-Regular", sans-serif;
+  font-size: x-large;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+hr {
+  background: #f6b93b;
+  border: 1.5px solid #f6b93b;
+}
+
+.Modal {
+  position: absolute;
+  background-color: black;
+  background: rgba(0, 0, 0, 0.92);
+  width: 1400px;
+  max-width: 100%;
+  height: 694px;
+  max-height: 100%;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px #f6b93b;
+  padding: 16px;
+  left: 5%;
+  top: 2%;
+  box-sizing: border-box;
+
+  -webkit-transition: 0.5s;
+  overflow: auto;
+  transition: all 0.3s linear;
+
+  overflow-y: scroll;
+
+  column-fill: blur(2px);
+}
+
+.Modal::-webkit-scrollbar {
+  display: none;
+}
+
+.output {
+  top: 10px;
+  left: 25px;
+  font-family: "Oswald-ExtraLight", sans-serif;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+}
+
+.modal_btn {
+  background-color: black;
+  border: none;
+  outline: none;
+}
