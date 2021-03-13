@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/DESIGN-OF-TENSION-MEMBERS/static/css/main.5486b4f7.chunk.css",
-    "main.js": "/DESIGN-OF-TENSION-MEMBERS/static/js/main.9c4bcb37.chunk.js",
-    "main.js.map": "/DESIGN-OF-TENSION-MEMBERS/static/js/main.9c4bcb37.chunk.js.map",
+    "main.js": "/DESIGN-OF-TENSION-MEMBERS/static/js/main.6fa3391d.chunk.js",
+    "main.js.map": "/DESIGN-OF-TENSION-MEMBERS/static/js/main.6fa3391d.chunk.js.map",
     "runtime-main.js": "/DESIGN-OF-TENSION-MEMBERS/static/js/runtime-main.86ec9163.js",
     "runtime-main.js.map": "/DESIGN-OF-TENSION-MEMBERS/static/js/runtime-main.86ec9163.js.map",
     "static/js/2.3beaa24e.chunk.js": "/DESIGN-OF-TENSION-MEMBERS/static/js/2.3beaa24e.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.86ec9163.js",
     "static/js/2.3beaa24e.chunk.js",
     "static/css/main.5486b4f7.chunk.css",
-    "static/js/main.9c4bcb37.chunk.js"
+    "static/js/main.6fa3391d.chunk.js"
   ]
 }
